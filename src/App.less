@@ -1,0 +1,136 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Segoe UI',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: lighten(lightblue, 15%);
+}
+
+.Header {
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #48c0f4;
+    position: fixed;
+    width: 100%;
+  }
+
+  li {
+    float: left;
+
+    a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background-color: cornflowerblue;
+    }
+  }
+
+  .Logo {
+    float: right;
+    height: auto;
+    margin-top: 6px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    pointer-events: none;
+  }
+}
+
+.Footer {
+  background-color: lightblue;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  position: fixed;
+  width: 100%;
+  height: 20px;
+  bottom: 0;
+  font-size: 14px;
+}
+
+.Title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#content {
+  padding-top: 70px;
+  padding-left: 25px;
+  padding-bottom: 80px;
+
+  #myKey {
+    padding: 10px 10px 0 20px;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    flex: 50%;
+  }
+
+  .myInput {
+    padding: 10px;
+  }
+
+  p {
+    width: 50%;
+    height: 150px;
+    border: 1px solid black;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  .changeBtn {
+      padding: 10px;
+      background: royalblue;
+      border-radius: 10px;
+      color: white;
+      border-style: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+  .loadDiv {
+    font-size: 14px;
+    padding: 10px;
+
+    .loadBtn {
+      padding: 8px;
+      background: lightgray;
+      border-radius: 10px;
+      border-style: none;
+      font-weight: bold;
+    }
+  }
+
+  .saveBtn {
+    background: lightblue;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-style: none;
+  }
+}

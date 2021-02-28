@@ -1,0 +1,115 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #e8f4f8;
+}
+.Header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #48c0f4;
+  position: fixed;
+  width: 100%;
+}
+.Header li {
+  float: left;
+}
+.Header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.Header li a:hover {
+  background-color: cornflowerblue;
+}
+.Header .Logo {
+  float: right;
+  height: auto;
+  margin-top: 6px;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+  pointer-events: none;
+}
+.Footer {
+  background-color: lightblue;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  position: fixed;
+  width: 100%;
+  height: 20px;
+  bottom: 0;
+  font-size: 14px;
+}
+.Title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  font-weight: bold;
+}
+#content {
+  padding-top: 70px;
+  padding-left: 25px;
+  padding-bottom: 80px;
+}
+#content #myKey {
+  padding: 10px 10px 0 20px;
+}
+#content .row {
+  display: flex;
+}
+#content .column {
+  flex: 50%;
+}
+#content .myInput {
+  padding: 10px;
+}
+#content p {
+  width: 50%;
+  height: 150px;
+  border: 1px solid black;
+}
+#content textarea {
+  resize: none;
+}
+#content .changeBtn {
+  padding: 10px;
+  background: royalblue;
+  border-radius: 10px;
+  color: white;
+  border-style: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+#content .loadDiv {
+  font-size: 14px;
+  padding: 10px;
+}
+#content .loadDiv .loadBtn {
+  padding: 8px;
+  background: lightgray;
+  border-radius: 10px;
+  border-style: none;
+  font-weight: bold;
+}
+#content .saveBtn {
+  background: lightblue;
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: bold;
+  border-style: none;
+}
+/*# sourceMappingURL=App.css.map */
